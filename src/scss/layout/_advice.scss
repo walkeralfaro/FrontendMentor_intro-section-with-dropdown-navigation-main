@@ -1,0 +1,139 @@
+@use 'base/variables' as v;
+
+.advice {
+    padding: 12rem 2rem 0 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .flex_advice {
+
+        height: 44rem;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+
+        h1 {
+            font-size: 8rem;
+            font-weight: bold;
+            line-height: 7rem;
+            
+            span::before{
+                content: "\a";
+                white-space: pre;
+            }
+        }
+
+        p {
+            color: v.$MediumGray;
+            font-size: 1.8rem;
+            margin-right: 12rem;
+            line-height: 2.6rem;
+        }
+
+        button {
+            background-color: black;
+            border-radius: 1.5rem;
+            color: white;
+            outline: none;
+            border: none;
+            height: 5rem;
+            width: 15rem;
+            cursor: pointer;
+
+            &:hover,
+            &:active {
+            border: solid 2px black;
+            background-color: transparent;
+            color: black;
+
+            }
+
+        }
+        
+
+    }
+
+    .flex_clients {
+        margin-right: 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 1366px) {
+
+    .advice {
+        padding: 4rem 2rem 0 2rem;
+    
+        .flex_advice {
+            height: 32rem;
+
+            h1 {
+                font-size: 7rem;
+            }
+
+            p {
+                margin-right: 8rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .advice {
+        width: 100vw;
+        height: auto;
+        padding: 0;
+
+
+        .flex_advice {
+
+            align-items: center;
+
+            height: 100%;
+
+            h1 {
+                margin: 2rem;
+                font-size: 3rem;
+                line-height: 3rem;
+
+                span::before{
+                    content: "";
+                }
+            }
+
+            p {
+                text-align: center;
+                font-size: 1.6rem;
+                margin: 0 1rem; 
+                line-height: 2rem;
+
+            }
+
+            button {
+                margin: 2rem auto;
+            }
+            
+        }
+
+        .flex_clients {
+
+            margin: 1rem 0;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                width: 15%;
+            }
+        }
+    }
+
+}

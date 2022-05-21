@@ -1,0 +1,22 @@
+@use 'base/variables' as v;
+
+footer {
+    grid-column: 1 / -1 ;
+    margin: .5rem auto;
+    height: 2rem;
+
+    &.attribution {
+
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        color: black;
+    
+        a {
+            color: v.$MediumGray;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+    }
+}

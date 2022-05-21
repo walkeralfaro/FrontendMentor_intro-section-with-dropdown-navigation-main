@@ -1,0 +1,77 @@
+@use 'base/variables' as v;
+
+
+.hero {
+
+    height: calc(100vh - 16rem);
+
+
+    .image_hero {
+
+        height: 100%;
+
+        display: flex;
+        justify-content: end;
+
+        .hero_mobile {
+            display: none;
+        }
+
+        img {
+            max-width: auto;
+            height: 100%;
+        }
+    
+    }
+}
+
+@media (min-width: 1920px) {
+
+    .hero {
+        height: calc(100vh - 20rem);
+    
+        .image_hero {
+    
+            height: 100%;
+    
+            display: flex;
+            justify-content: end;
+    
+            .hero_mobile {
+                display: none;
+            }
+    
+            img {
+                max-width: auto;
+                height: 100%;
+            }
+        
+        }
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .hero {
+        grid-row: 1/2;
+        width: 100vw;
+        height: auto;
+    
+        .image_hero {
+    
+            .hero_mobile {
+                display: block;
+
+                height: auto;
+                max-width: 100% ;
+            }
+
+            .hero_desktop {
+                display: none;
+            }
+        }
+    }
+}
