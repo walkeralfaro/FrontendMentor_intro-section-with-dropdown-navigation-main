@@ -28,7 +28,9 @@ Users should be able to:
 ### Screenshot
 
 ![landscape](https://github.com/WalkerAlfaro/intro-section-with-dropdown-navigation-main/blob/main/screenshots/landscape.png)
+
 ![mobile_1](https://github.com/WalkerAlfaro/intro-section-with-dropdown-navigation-main/blob/main/screenshots/mobile_1.png)
+
 ![mobile_2](https://github.com/WalkerAlfaro/intro-section-with-dropdown-navigation-main/blob/main/screenshots/mobile_2.png)
 
 ### Links
