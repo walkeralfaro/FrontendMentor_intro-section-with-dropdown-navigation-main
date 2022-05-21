@@ -27,12 +27,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![landscape](https://github.com/WalkerAlfaro/intro-section-with-dropdown-navigation-main/blob/main/screenshots/landscape.png)
+![mobile_1](https://github.com/WalkerAlfaro/intro-section-with-dropdown-navigation-main/blob/main/screenshots/mobile_1.png)
+![mobile_2](https://github.com/WalkerAlfaro/intro-section-with-dropdown-navigation-main/blob/main/screenshots/mobile_2.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/WalkerAlfaro/intro-section-with-dropdown-navigation-main)
+- [Live Site URL](https://walker-alfaro-dropdown-navigation.netlify.app)
 
 ## My process
 
@@ -40,7 +42,7 @@ Users should be able to:
 
 - HTML5
 - CSS GRID and FLEXBOX
-- GULP
+- GULP workflow
 - SASS
 - JS vanilla
 
